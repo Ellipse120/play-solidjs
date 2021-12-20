@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import styles from "./App.module.css";
+import DemoWindiCSS from "./DemoWindiCSS";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         >
           Learn Solid
         </a>
+
+        <DemoWindiCSS name={'Lusai'} />
       </header>
     </div>
   );
